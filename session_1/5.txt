@@ -1,0 +1,21 @@
+5.Write a short comparison (3-4 lines each) of MySQL, PostgreSQL, Oracle, and SQLite, focusing on where each one is commonly used (for example: web apps, mobile apps, enterprise systems, etc.).
+
+Answer:
+
+ Short Comparison of Database Systems
+
+MySQL:
+MySQL is commonly used for web applications and websites.
+    It is popular because it is easy to use and works well with applications such as WordPress and e-commerce websites.
+
+PostgreSQL:
+PostgreSQL is commonly used for web applications, data analysis, and complex database systems.
+    It is known for handling large amounts of data and supporting advanced SQL features.
+
+Oracle:
+Oracle Database is mainly used in large enterprise systems and organizations.
+    It is commonly used in banking, finance, government, and other systems that require high security and reliability.
+
+SQLite:
+SQLite is commonly used in mobile apps, desktop applications, and embedded systems.
+    It is lightweight and stores the entire database in a single file, making it suitable for applications with smaller database requirements.

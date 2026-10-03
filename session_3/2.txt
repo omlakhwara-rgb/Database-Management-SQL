@@ -1,0 +1,3 @@
+2.Write a SQL UPDATE statement to change the rating of the restaurant named 'Spice Villa' to 4.7 in the Restaurants table.
+
+Answer:

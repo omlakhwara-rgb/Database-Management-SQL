@@ -1,0 +1,32 @@
+2.Create a new database called InstaClone in MySQL Workbench, then create a table named Users with columns: user_id (INT, primary key), username (VARCHAR), email (VARCHAR), and followers_count (INT).
+
+Answer:
+
+Task 2: Create InstaClone Database and Users Table
+
+Procedure:
+
+1.Opened MySQL Workbench and connected to the local MySQL Server.
+2.Created a new database named InstaClone.
+3.Selected the InstaClone database.
+4.Created a table named Users.
+5.Added the following columns:
+    user_id – INT, Primary Key
+    username – VARCHAR(100)
+    email – VARCHAR(100)
+    followers_count – INT
+
+------------------------------------------------------------
+
+CREATE DATABASE InstaClone;
+
+USE InstaClone;
+
+CREATE TABLE Users (
+    user_id INT PRIMARY KEY,
+    username VARCHAR(100),
+    email VARCHAR(100),
+    followers_count INT
+);
+
+----------------------------------------------------------------

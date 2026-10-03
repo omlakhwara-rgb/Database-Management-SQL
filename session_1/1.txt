@@ -1,0 +1,22 @@
+1.Install MySQL Workbench on your computer, connect to the local MySQL server, and take a screenshot of the default databases shown in the Schemas panel.
+
+Answer:
+
+Task 1: Install MySQL Workbench and Connect to Local MySQL Server
+
+Procedure:
+
+1. Installed MySQL Workbench on the computer.
+2. Opened MySQL Workbench and connected to the local MySQL Server.
+3. Entered the MySQL Server password to establish the connection.
+4. After connecting successfully, opened the Schemas panel on the left side.
+5. The default databases provided by MySQL were displayed in the Schemas panel, such as:
+
+   * information_schema
+   * mysql
+   * performance_schema
+   * sys
+6. Took a screenshot of the Schemas panel showing the default databases.
+
+Result:
+MySQL Workbench was successfully installed and connected to the local MySQL Server, and the default databases were visible in the Schemas panel.
