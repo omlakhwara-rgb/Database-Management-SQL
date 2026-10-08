@@ -1,9 +1,0 @@
-3.Insert 3 sample users into the Users table you created, using realistic Instagram-style usernames and follower counts.
-
-Answer:
-
-INSERT INTO Users (user_id, username, email, followers_count)
-VALUES
-(1, 'travelwith_raj', 'raj@gmail.com', 1250),
-(2, 'foodie_riya', 'riya@gmail.com', 3480),
-(3, 'the_aryan', 'aryan@gmail.com', 2100);

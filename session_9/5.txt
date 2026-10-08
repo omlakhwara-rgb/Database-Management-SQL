@@ -1,1 +1,32 @@
-5.Use ChatGPT to generate a SQL test scenario where a trigger incorrectly updates a user's balance after an expense entry. Paste the scenario and your corrected trigger code, explaining how you fixed the error.<br><br><em><strong>Hint:</strong> Ask ChatGPT for a buggy trigger example and a test case that exposes the bug.</em>
+--5.Use ChatGPT to generate a SQL test scenario where a trigger incorrectly updates a user's balance after an expense entry. Paste the scenario and your corrected trigger code, explaining how you fixed the error.<br><br><em><strong>Hint:</strong> Ask ChatGPT for a buggy trigger example and a test case that exposes the bug.</em>
+
+Answer:
+Buggy Trigger Scenario
+
+Suppose a user has a balance of ₹10,000. When an expense of ₹2,000 is added, the trigger should subtract ₹2,000 from the user's balance.
+
+The buggy trigger incorrectly adds the expense amount instead of subtracting it.
+
+Test Case:
+
+* Initial Balance = ₹10,000
+* Expense = ₹2,000
+* Expected Balance = ₹8,000
+* Buggy Trigger Result = ₹12,000
+
+ Corrected Trigger Code
+
+sql
+CREATE TRIGGER update_balance_after_expense
+AFTER INSERT ON expenses
+FOR EACH ROW
+BEGIN
+    UPDATE users
+    SET balance = balance - NEW.amount
+    WHERE id = NEW.user_id;
+END;
+
+
+Explanation
+
+The error was that the trigger was adding the expense amount to the user's balance. I fixed it by using `balance - NEW.amount`, so the expense amount is correctly deducted from the user's balance.

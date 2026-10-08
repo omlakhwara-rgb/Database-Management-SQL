@@ -1,1 +1,0 @@
-3.Write an SQL UPDATE statement to rename the 'Chill Vibes' playlist to 'Evening Chill' for a specific user_id.
